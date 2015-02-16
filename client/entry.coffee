@@ -2,14 +2,14 @@ AccountsEntry =
   settings:
     wrapLinks: true
     homeRoute: '/'
-    dashboardRoute: '/dashboard'
+    dashboardRoute: '/videographer'
     passwordSignupFields: 'EMAIL_ONLY'
     emailToLower: true
     usernameToLower: false
     entrySignUp: '/sign-up'
     extraSignUpFields: []
-    showOtherLoginServices: true
-    fluidLayout: false
+    showOtherLoginServices: false
+    fluidLayout: true
     useContainer: true
 
   isStringEmail: (email) ->
